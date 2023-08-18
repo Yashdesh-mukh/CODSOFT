@@ -1,0 +1,171 @@
+
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  background-color: rgb(72, 127, 130);
+  background-image: linear-gradient(135deg, #f0e68c, #87cefa);
+}
+
+header {
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+header p{
+  font-weight: bolder;
+}
+
+.navbar {
+  background-color: grey;
+  padding: 0.5rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+ justify-content: center;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+.container button{
+  width: 15vh;
+  border-radius: 50px;
+  background-color: gray;
+  color: white;
+  margin-left: 43%;
+}
+ button:hover{
+  background-color: white;
+  color: gray;
+}
+.container {
+  justify-content: center;
+ height: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px white(0, 0, 0, 0.2);
+  
+}
+
+.profile-img {
+  max-width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+.bio {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+ h2{
+  color: white;
+  background-color: rgb(22, 6, 141);
+  text-align: center;
+}
+
+.skill {
+  background: linear-gradient(rgb(244, 244, 107),rgb(255, 255, 255));
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  flex-direction: column;
+  width: calc(33.33% - 20px);
+  margin-right: 2%;
+  border: 1px solid rgb(128, 128, 128);
+  margin-bottom: 2rem;
+  box-sizing: border-box;
+  border-radius: 5%;
+  box-shadow:2px 2px 2px  #545656;
+  margin-top: 30px;
+}
+
+progress{
+  width: 70%;
+  height: 30px;
+  color: blue;
+}
+.skill img {
+  max-width: 100px; 
+  height: 100px;
+}
+
+.skill p {
+  font-family: "Lucida Console", "Courier New", monospace;
+color: rgb(78, 78, 78);
+font-weight: bold;
+}
+
+.skill h3 {
+  margin-top: 1rem;
+}
+
+.contact-info {
+  text-align: center;
+  color: #555;
+}
+
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+
+header h1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+.container {
+  border: 2px solid gray;
+}
+
+.skills li {
+  background-color: #4caf50;
+}
+
+.profile-img {
+  border: 4px solid gray;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+ 
+
+
+
